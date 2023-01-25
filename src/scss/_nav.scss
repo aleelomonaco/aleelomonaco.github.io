@@ -28,13 +28,13 @@ nav{
     justify-content: end;
     > li > a{
         display: block;
-        padding: 25px 30px;
+        padding: 28px 30px;
         color: $color1;
         text-decoration: none;
     }
     > li:hover{
         background-color: #ac39f356;
-        border: 1px solid #AC39F3;
+        box-shadow: inset 0 0 0 3px $colorTerciario;
         margin: 0px;
         transition: 0.3s;
         border-radius: 30px;
@@ -46,7 +46,7 @@ nav{
 }
 .menu_vertical{
     position: absolute;
-    margin-top: 2px;
+    margin-top: 0.5px;
     display: none;
     list-style: none;
     width: 180px;
