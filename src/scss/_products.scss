@@ -1,4 +1,6 @@
 .products_cover{
+    position: absolute;
+    z-index: 2;
     background-image: url(../img/galaxia.jpg);
     background-size: cover;
     width: 100%;
