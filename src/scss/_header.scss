@@ -1,4 +1,6 @@
 header{
+    position: absolute;
+    z-index: 2;
     grid-area: header;
     > .cover{
         width: 100vw;
