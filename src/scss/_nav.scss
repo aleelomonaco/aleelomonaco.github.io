@@ -1,6 +1,4 @@
 nav{
-    position: absolute;
-    z-index: 3;
     grid-area: nav;
 }
 .navindex{
@@ -86,6 +84,8 @@ nav{
         padding: 20px;
     }
     .navindex > ul {
+        position: absolute;
+        z-index: 3;
         position: fixed;
         flex-direction: column;
         background-color: $colorPrincipal;

@@ -1,6 +1,4 @@
 .products_cover{
-    position: absolute;
-    z-index: 2;
     background-image: url(../img/galaxia.jpg);
     background-size: cover;
     width: 100%;
@@ -9,6 +7,7 @@
     align-items: center;
     justify-content: center;
     > h1{
+        z-index: 1;
         color: $color1;
         display: flex;
         flex-wrap: wrap;
@@ -28,6 +27,7 @@
         }
     }
     @media (max-width:700px){
+        height: 300px;
         .img_main{
             background-size: contain;
             background-repeat: no-repeat;
@@ -91,7 +91,7 @@
                 @media (max-width:700px){
                         background-size: contain;
                         background-repeat: no-repeat;
-                        width: 300px;
+                        width: 290px;
                         height: 260px;
                     }
                 }
@@ -201,7 +201,7 @@
         display: block;
         width: 75vw;
         height: 680px;
-        padding: 30px;
+        padding: 20px;
     }  
     .tablet1__title h2{
         font-size: 24px;
