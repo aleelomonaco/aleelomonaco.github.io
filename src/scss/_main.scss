@@ -1,5 +1,7 @@
 /*Index*/
 main{
+    position: absolute;
+    z-index: 1;
     display: block;
     > .img_main{    
         margin: auto;
