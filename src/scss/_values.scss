@@ -7,8 +7,9 @@
     margin-bottom: 40px;
     gap: 20px;
     @media (max-width:500px){
-        justify-content: center;
-        margin: 20px;
+        justify-self: center;
+        max-width: 300px;
+        margin: auto;
     }
     > .index__card{
         background-color: $colorPrincipal;
@@ -21,14 +22,22 @@
         border-radius: 8px;
         padding: 30px;
         gap: 10px;
+        .card__img{
+            padding-left: 50px;
+            padding-right: 50px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+        @media (max-width:500px){
+            padding: 16px;
+            max-width: 250px;
+                img{
+                    max-width: 120px;
+                }
+        }
     }
-    > .card__img{
-        padding-left: 50px;
-        padding-right: 50px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-    }
+
     h3{
         font-family: 'Kanit', sans-serif;
         font-size: 30px;

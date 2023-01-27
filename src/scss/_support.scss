@@ -1,13 +1,28 @@
 .support__portada{
     height: 500px;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image:url(../img/support1.png);
-    @media(max-width:900px){
-        max-height: 300px;
-    }
-
+    h1{
+        color: $color1;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 80px;
+        text-align: center;
+        text-shadow: 1px 1px 2px $colorTerciario, 0 0 0.2em black;
+        @media (max-width:1100px){
+            font-size: 60px;
+            }
+        @media(max-width:700px){
+            font-size: 40px;
+        }
+    }       
 }
+
 .support__team{
+    max-width: 1300px;
     @extend %content;
     > h2{
         @extend %h2;
@@ -17,7 +32,6 @@
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        max-width: 1400px;
         display: flex;
         align-content: center;
         justify-content: center;

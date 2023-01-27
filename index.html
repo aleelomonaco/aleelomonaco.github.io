@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pyramid</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
-<!--Page made with Flexbox-->
 <body class="body_index">
     <nav class="navindex">
         <i class="fa-solid fa-bars"></i>
@@ -32,15 +33,16 @@
             <li><a href="./pages/about.html">ABOUT</a></li>     
             <li><a href="./pages/contact.html">CONTACT</a></li>  
         </ul>
-        <a class="logoindex" href="../index.html"><img src="./assets/img/Isologoblanco.png" alt=""></a>
+        <a class="logoindex" href="../index.html"><img src="./assets/img/Isologoblanco.png" alt="Pyramid logo"></a>
         <i class="fa-solid fa-magnifying-glass"></i>
     </nav>
+          <!--COVER-->
     <header>
-        <div class="cover"></div>
+        <div class="cover"><img src="./assets/img/portada2.png" alt=""></div>
     </header>
     <main>
-        <h1>UNLEASH THE POWER</h1>
-        <div class="img_main"><img src="./assets/img/gifjim2.gif" alt=""></div>
+        <h1 data-aos="zoom-out">UNLEASH THE POWER</h1>
+        <div class="img_main" data-aos="fade-up"><img src="./assets/img/gifjim2.gif" alt="Gif of the CEO Jim Halpert"></div>
         
         <!--Values-->
         <h2>Connecting people since 2012</h2>
@@ -48,18 +50,18 @@
             <div class="world__container">
             </div>
             <section class="values">
-                <div class="index__card">
-                    <img  class="card__img" src="./assets/img/access.png">
+                <div class="index__card" data-aos="zoom-in-up">
+                    <img  class="card__img" src="./assets/img/access.png" alt="Pyramid accessibility" >
                     <h3 class="card__title">ACCESSIBILITY</h3>
                     <p class="card__text">Bring the best user experience through our innovative hardware, software and services</p><br>
                 </div>
-                <div class="index__card">
-                    <img  class="card__img" src="./assets/img/excellent.png">
+                <div class="index__card" data-aos="zoom-in-up">
+                    <img  class="card__img" src="./assets/img/excellent.png" alt="Pyramid excellence">
                     <h3 class="card__title">EXCELLENCE</h3>
                     <p class="card__text">We work hard and professional, even if we commit mistakes we always give nothing but perfection.</p><br>
                 </div>
-                <div class="index__card">
-                    <img  class="card__img" src="./assets/img/simple.png">
+                <div class="index__card" data-aos="zoom-in-up">
+                    <img  class="card__img" src="./assets/img/simple.png" alt="Pyramid simpleness">
                     <h3 class="card__title">SIMPLENESS</h3>
                     <p class="card__text">We believe that simple is better, as the form of a pyramid.</p><br>
                     <p class="card__text">Nothing more, nothing less.</p> 
@@ -72,7 +74,7 @@
     <footer>
         <div class="company_data">
                 <div class="footer_top">
-                    <img class="footer_logoindex" src="./assets/img/Logoblanco1.png" alt="">
+                    <img class="footer_logoindex" src="./assets/img/Logoblanco1.png" alt="Pyramid logo">
                     <p>The connection to everything in time and space</p>
                     <div class="socialmedia">
                         <i class="fab fa-youtube"></i>
@@ -118,5 +120,8 @@
                     </div>
         </div>
     </footer>
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script> AOS.init({once: true,duration: 3000});</script>
 </body>
 </html>
