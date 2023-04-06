@@ -5,10 +5,10 @@ main{
     > .img_main{    
         margin: auto;
         max-width: 1960px;
-        justify-items: center;
+        display: block;
+        justify-content: center;
         > img{
             width: 100%;
-            justify-self: center;
         }
         @media (max-width:1200px){
                 background-size:contain;

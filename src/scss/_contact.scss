@@ -1,7 +1,7 @@
 
 .callcenter{
-
     @extend %content;
+    margin-top: 40px;
     max-width: 1200px;
     > h2{
         color: $color1;
@@ -106,7 +106,7 @@
     background-color: $colorSecundario;
     max-width: 1200px;
     margin: 10px auto;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     border-radius: 10px;
     display: grid;
     gap: 10px;
@@ -140,7 +140,7 @@
                 background-color: rgba(255, 255, 255, 0.349);
                 height: 60px;
                 width: 100%;
-                max-width: 1150px;
+                max-width: 1165px;
                 border-radius: 4px;
             }            
             }

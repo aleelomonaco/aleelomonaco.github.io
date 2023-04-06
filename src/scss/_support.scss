@@ -28,6 +28,7 @@
 .support__team{
     max-width: 1300px;
     @extend %content;
+    margin-top: 40px;
     > h2{
         @extend %h2;
     }

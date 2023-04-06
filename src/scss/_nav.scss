@@ -1,5 +1,11 @@
 nav{
     grid-area: nav;
+    &:hover{
+        box-shadow: -5px 17px 47px -28px rgba(172,57,243,0.59);
+-webkit-box-shadow: -5px 17px 47px -28px rgba(172,57,243,0.59);
+-moz-box-shadow: -5px 17px 47px -28px rgba(172,57,243,0.59);
+        transition: 0.5s;
+    }
 }
 .navindex{
     display: flex;
